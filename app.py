@@ -14,6 +14,10 @@ from random import randint
 app = Flask(__name__)
 app.secret_key = f"{os.urandom(12)}"
 
+@app.route("/")
+def land():
+    return "why are you here? go to /data"
+
 
 @app.route("/data")
 def dummy():
