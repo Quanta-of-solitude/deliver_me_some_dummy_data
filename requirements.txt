@@ -1,6 +1,6 @@
 flask
 flask-cors
-Flask['async']
+Flask[async]
 aioflask
 requests
 gunicorn
